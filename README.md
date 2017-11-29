@@ -29,7 +29,7 @@ The programming concept for variable declaration would be creating a place holde
 
 In Javascript it would look like this `var data = 1;` but in Python it would look like this `data = 1`
 
-Noticed that in Javascript there is the keyword `var` which stands for variable. This is because in Javascript the `var` keyword is mapped to a specific instruction.
+Notice that in Javascript there is the keyword `var` which stands for variable. This is because in Javascript the `var` keyword is mapped to a specific instruction and in python `var` is not part of the language. However, both lines of code essentially does the same thing.
 
 Therefore, what most people say about learning the concepts vs a language is true, but I highly recommend you to focus on one language for a while.
 
@@ -40,8 +40,8 @@ Having a deeper understanding of one language is better than having a surface le
 Below is a free book and tools that you will need to complete the Soul Encoded Javascript Challenges.
 
 - [Eloquent Javascript](http://eloquentjavascript.net/): This is a awesome JS book that you can view for free. Consider supporting them by buying a physical copy
-- [Node](https://nodejs.org/en/): You can just follow the install or instead us [homebrew](https://brew.sh/)
-- [IDE](https://github.com/SoulEncoded/IDE) : We will be using Atom
+- [Node](https://nodejs.org/en/): You can just follow the install or instead us [homebrew](https://brew.sh/). We will be using Node to run your javascript files.
+- [Atom](https://atom.io/): We will be using Atom to write our code. here is a quick lesson on [IDEs]([IDE](https://github.com/SoulEncoded/IDE))
 
 ## Course Structure
 
@@ -50,13 +50,16 @@ The basic format will be the following:
 - Lecture based on the book material.
 - Challenges that demonstrates what we learned.
 
-Basically the material will be here for you to consume, and it will be up to you to put in the time and effort to learn this stuff.
+Basically the material will be there for you to consume, and it will be up to you to put in the time and effort to learn this stuff. Good Luck and have some fun with it :)
 
 ## Challenge
 
-1. [Read Intro to Eloquent Javascript](http://eloquentjavascript.net/00_intro.html)
-1. [Get your IDE setup e.a. install Atom](https://github.com/SoulEncoded/IDE)
-2. Install Node
+1. [Read Intro to Eloquent Javascript](http://eloquentjavascript.net/00_intro.html).
+2. [Get your IDE setup e.a. install Atom](https://github.com/SoulEncoded/IDE).
+3. [Install Node](https://nodejs.org/en/).
+4. create a file called `hello_world.js`.
+5. in `hello_world.js` type in `console.log('hello world');`.
+6. run the `hello_world.js` file with Node.
 
 ## Additional Resources
 - [You Don't Know JS by Kyle Simpson](https://github.com/getify/You-Dont-Know-JS)
@@ -64,5 +67,4 @@ Basically the material will be here for you to consume, and it will be up to you
 - [Derek Banas Youtube Video on Javascript](https://www.youtube.com/watch?v=fju9ii8YsGs)
 
 NOTE: I purposely did not include interactive learning sites. e.a. sites that has a code editor and you solve challenges.
-I generally find them not as helpful to your learning in the long run. I want you to get used to working with command line, git, github, and other tools that
-you would use everyday as an engineer.
+I generally find them not as helpful to your learning in the long run. I want you to get used to working with command line, git, github, and other tools that you would use everyday as an engineer.
